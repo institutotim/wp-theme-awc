@@ -152,3 +152,8 @@
         </div><!-- /.container-fluid -->
     <!-- NAVBAR MENU END -->
 </div>            
+		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
+
+		<?php if ($template === "page_home.php"): ?>
+			<?php get_template_part("headlines"); ?>
+		<?php endif; ?>
