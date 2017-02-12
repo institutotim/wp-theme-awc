@@ -150,7 +150,24 @@
 
 	<body <?php $t->content->body_class(); ?>>
 
+    <div class="container">
+        <div class="col-lg-offset-1 col-lg-10 col-md-12">
+            <nav id="main-nav" class="row hidden-xs hidden-sm">
+                <div class="col-lg-12 col-md-12">
+                  <!-- OLD MENU -- >
+                   <!-- <?php wp_nav_menu( array( 'theme_location' => 'header', 'items_wrap' => '<ul class="clearfix textcenter">%3$s</ul>', 'container' => '', 'fallback_cb' => '', 'depth' => 2 ) ); ?>-->
+                </div>
+            </nav>
 
+            <section id="main-section">
+
+            <div class="main-navbar visible-xs visible-sm">
+            <!--  <?php wp_nav_menu( array( 'theme_location' => 'header', 'items_wrap' => '<ul class="clearfix">%3$s</ul>', 'container' => '', 'fallback_cb' => '', 'depth' => 2 ) ); ?>-->
+            </div>
+            
+
+            
+		<?php get_template_part("menu"); ?>
 		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
 
 		<?php if ($template === "page_home.php"): ?>
