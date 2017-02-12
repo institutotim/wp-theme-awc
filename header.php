@@ -60,7 +60,8 @@
     <link href="https://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/institutotim.css">
-<div class="header-novo">
+
+	<div id="header-novo">
         <div class="section navbar-overtop-tim">
       <div class="container ">
         <div class="row">
@@ -132,7 +133,7 @@
                           'container'         => 'div',
 //                'container_class'   => 'collapse navbar-collapse',
                           'container_id'      => 'bs-example-navbar-collapse-1',
-                          'menu_class'        => 'nav navbar-nav navbar-right header-novo',
+                          'menu_class'        => 'nav navbar-nav navbar-right',
                           'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                           'walker'            => new wp_bootstrap_navwalker())
                         );
