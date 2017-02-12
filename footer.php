@@ -1,8 +1,6 @@
 <?php $t =& peTheme(); ?>
 <?php $layout =& $t->layout; ?>
 
-
-
     <!-- FOOTER START -->
     <footer class="section section-primary">
       <div class="section section-footer">
@@ -103,8 +101,7 @@
 <br />
 <br />
       </div>
-				<div class="clearfix"></div>
-				<?php do_action( 'et_header_top' ); ?>
+
     </footer>
 
 <!--<?php wp_footer(); ?>-->
