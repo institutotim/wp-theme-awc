@@ -15,14 +15,14 @@
                   <div class="row">
                     <div class="col-md-8 col-md-8 col-sm-12 col-xs-12">
                       <div class="col-md-3 col-md-3 col-sm-6 col-xs-12 text-left">
-                        <p class="footertitle">O que é TIM Faz Ciência?</p>
+                        <p class="footertitle">O que é?</p>
 
             
                       <!--  
                         <p class="">Conheça TIM Tec</p>-->
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">CONHEÇA AS 7 OPERAÇÕES</p>
+                        <p class="footertitle">Como Fazemos?</p>
 
                           <?php 
 
@@ -41,7 +41,7 @@
                         <p class="">Instalação e desenvolvimento</p>-->
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">GALERIA DE PENSADORES</p>
+                        <p class="footertitle">Agenda</p>
 
 
                           <?php 
@@ -59,20 +59,19 @@
                         <!--<p class="">Lista de Cursos</p>-->
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">Queremos ouvir você</p>
+                        <p class="footertitle">Inscreva-se</p>
 
-                          <?php 
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
+                        <p class="footertitle">Notícias</p>
 
-                          wp_nav_menu ( array(
-                          'theme_location' => '',
-                          'menu' => 'footer-4', 
-                          'menu-class' => '',
-                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>', 
-                          'container' => '', 
-                          'fallback_cb' => '', 
-                          'depth' => 2)
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
+                       	<p class="footertitle">FAQ</p>
 
-                          ); ?>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
+                        <p class="footertitle">Equipe</p>
 
                       </div>
                     </div>
