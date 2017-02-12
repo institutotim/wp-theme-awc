@@ -1,9 +1,9 @@
-</section>
 <br />
 <br />
 <br />
 <br />
     <!-- FOOTER START -->
+    <section id="footer-novo">
     <footer class="section section-primary">
       <div class="section section-footer">
         <div class="container">
@@ -105,7 +105,7 @@
       </div>
 
     </footer>
-
+</section>
     <?php wp_footer(); ?>
 
 </body>
