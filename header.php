@@ -147,10 +147,10 @@
         </div><!-- /.container-fluid -->
  </div>
     <!-- NAVBAR MENU END -->
-    
+
 	<body <?php $t->content->body_class(); ?>>
 
-		<?php get_template_part("menu"); ?>
+		<!-- <?php get_template_part("menu"); ?>-->
 
 		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
 

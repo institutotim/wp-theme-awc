@@ -1,90 +1,113 @@
 <?php $t =& peTheme(); ?>
 <?php $layout =& $t->layout; ?>
 
-<!-- Begin Footer -->
-<footer id="footer" class="clearfix">
-	<div class="content dark container">
 
-		<!-- Contact Links -->
-		<ul class="contact animated hatch clearfix">
-			<?php if ( $t->options->get("contactPhone") ) : ?>
-			<li class="grid-2">
-				<p>
-				<i class="icon-phone"></i>
-				<br>
-				<?php echo $t->options->get("contactPhone"); ?>
-			</li>
-			<?php endif; ?>
-			<?php if ( $t->options->get("contactEmail") ) : ?>
-			<li class="grid-2">
-				<a id="contact-open" href="#">
-					<p>
-						<i class="icon-mail"></i>
-						<br>
-					<?php echo $t->options->get("contactEmail"); ?>
-					</p>
-				</a>
-			</li>
-			<?php endif; ?>
-			<?php if ( $t->options->get("contactAddress") ) : ?>
-			<li class="grid-2">
-				<a href="<?php echo esc_attr( $t->options->get("contactAddressLink") ); ?>" target="_blank">
-					<p>
-						<i class="icon-location"></i>
-						<br>
-					<?php echo $t->options->get("contactAddress"); ?>
-					</p>
-				</a>
-			</li>
-			<?php endif; ?>
-		</ul>
-	</div>
 
-	<!-- Contact Form -->
-	<div id="contact-form" class="dark clearfix">
-		<div class="container">
-			<div class="contact-heading grid-full">
-				<h3><?php echo $t->options->get("contactHeading"); ?></h3>
-				<span class="border"></span>
-			</div>
-		</div>
+    <!-- FOOTER START -->
+    <footer class="section section-primary">
+      <div class="section section-footer">
+        <div class="container">
 
-		<form action="#" method="post" class="contactForm peThemeContactForm container" id="contactform">
-			<fieldset>
-				<div class="form-field grid-half control-group">
-					<label for="name"><?php _e("Name",'Pixelentity Theme/Plugin'); ?></label>
-					<span><input type="text" class="required" name="name" id="name" /></span>
-				</div>
-				<div class="form-field grid-half  control-group">
-					<label for="email"><?php _e("Email",'Pixelentity Theme/Plugin'); ?></label>
-					<span><input type="email" class="required" name="email" id="email" /></span>
-				</div>
-				<div class="form-field grid-full control-group">
-					<label for="message"><?php _e("Message",'Pixelentity Theme/Plugin'); ?></label>
-					<span><textarea name="message" class="required" id="message"></textarea></span>
-				</div>
-			</fieldset>
-			<div class="form-click grid-full">
-				<span><button name="send" type="submit" dir="ltr" lang="en" class="submit" id="submit"><?php _e("Send",'Pixelentity Theme/Plugin'); ?></button></span>
-			</div>
-			<div id="contactFormSent" class="grid-full formSent alert"><?php echo $t->options->get("msgOK"); ?></div>
-			<div id="contactFormError" class="grid-full formError alert"><?php echo $t->options->get("msgKO"); ?></div>
-		</form>	
-	</div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 col-md-8 col-sm-12 col-xs-12">
+                      <div class="col-md-3 col-md-3 col-sm-6 col-xs-12 text-left">
+                        <p class="footertitle">O que é TIM Faz Ciência?</p>
 
-	<div class="container">
+            
+                      <!--  
+                        <p class="">Conheça TIM Tec</p>-->
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
+                        <p class="footertitle">CONHEÇA AS 7 OPERAÇÕES</p>
 
-		<!-- Social Links 
-		<ul class="social-links grid-full">
-			<?php $t->content->socialLinks($t->options->get("footerSocialLinks"),"bottom"); ?>
-		</ul>-->
+                          <?php 
 
-		<!-- Copyright Info 
-		<div class="copyright grid-full"><h6><?php echo $t->options->get("footerCopyright"); ?></h6></div>-->
-<div class="footcontato"><a href="http://www.institutotim.org.br" target="_blank"><img src="http://awc.institutotim.org.br/wp-content/uploads/logo-rodape.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:awc@institutotim.org.br"><img src="http://awc.institutotim.org.br/contato.png"></a></div>
-	</div>
-</footer>
-<!-- End Footer -->
+                          wp_nav_menu ( array(
+                          'theme_location' => '',
+                          'menu' => 'footer-1', 
+                          'menu-class' => '',
+                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>', 
+                          'container' => '', 
+                          'fallback_cb' => '', 
+                          'depth' => 2)
+
+                          ); ?>
+                        <!--
+                        <p class="">Funcionalidades</p>
+                        <p class="">Instalação e desenvolvimento</p>-->
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
+                        <p class="footertitle">GALERIA DE PENSADORES</p>
+
+
+                          <?php 
+
+                          wp_nav_menu ( array(
+                          'theme_location' => '',
+                          'menu' => 'footer-3', 
+                          'menu-class' => '',
+                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>', 
+                          'container' => '', 
+                          'fallback_cb' => '', 
+                          'depth' => 2)
+
+                          ); ?>
+                        <!--<p class="">Lista de Cursos</p>-->
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
+                        <p class="footertitle">Queremos ouvir você</p>
+
+                          <?php 
+
+                          wp_nav_menu ( array(
+                          'theme_location' => '',
+                          'menu' => 'footer-4', 
+                          'menu-class' => '',
+                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>', 
+                          'container' => '', 
+                          'fallback_cb' => '', 
+                          'depth' => 2)
+
+                          ); ?>
+
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center footerborder-left">
+                      <div class="row">
+                        <br>
+                        <br>
+                        <a href="https://institutotim.org.br" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_header_institutotim.png"></a>
+                        <h5 class="footertitle">Instituto TIM nas Redes</h5>
+                        <a href="mailto:contato@timfazciencia.com.br"><i class="fa fa-fw fa-lg text-inverse fa-at"></i></a>
+                        <a href="https://www.facebook.com/timfazciencia"><i class="fa fa-facebook fa-fw fa-lg text-inverse"></i></a>
+                        <!--<a href="https://twitter.com/"><i class="fa fa-fw hub fa-lg text-inverse fa-twitter"></i></a> -->
+
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+             <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 text-center footertitle">
+               <div class="row">
+                  <br><br><br><br><br>
+                 Copyright TIM Celular 2017 - Todos os direitos reservados.
+              </div>
+            </div>
+          </div>
+        </div>
+<br />
+<br />
+      </div>
+				<div class="clearfix"></div>
+				<?php do_action( 'et_header_top' ); ?>
+    </footer>
+
+<!--<?php wp_footer(); ?>-->
 							
 <?php $t->footer->wp_footer(); ?>
 
