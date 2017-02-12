@@ -431,7 +431,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 -------------------------------------------------------------- */
 
 
-
+/* Novo header
 nav {
 
 	position: fixed;
@@ -480,8 +480,8 @@ nav {
 
 }
 
-
-
+*/
+/*
 .desktop.navigation .nav-content { float: right; }
 
 
@@ -492,7 +492,7 @@ nav {
 
 	margin-right: 45px;
 
-	line-height: 30px; /* Set to the height of your own logo to center the text */
+	line-height: 30px; 
 
 }
 
@@ -520,7 +520,7 @@ nav {
 
 .desktop.navigation .nav-content li:last-of-type { margin-right: 0px; }
 
-
+*/
 
 /* Mobile Navigation */
 
@@ -585,7 +585,7 @@ nav {
 }
 
 
-
+/*
 .nav-button {
 
 	display: none;
@@ -608,10 +608,10 @@ nav {
 
 }
 
-
+*/
 
 /* Navigation Icon */
-
+/*
 .icon-bar {
 
 	display: block;
@@ -630,7 +630,7 @@ nav {
 
 
 
-
+*/
 
 /* =Hero
 
