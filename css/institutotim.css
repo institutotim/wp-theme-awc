@@ -130,8 +130,8 @@
 #header-novo .search input { text-indent: 5px;}
 .search .fa-search { 
   position: absolute;
-  top: 42%;
-  right:10px;
+  top: 15%;
+  right:0px;
 }
 
 #header-novo .img-test{
