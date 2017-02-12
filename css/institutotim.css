@@ -173,22 +173,22 @@
 
 /* Footer */
 
-.section-primary {
+#footer-novo .section-primary {
   background-color: #004691 !important;
   color: #ffffff;
 }
 
-.section-primary-mooc {
+#footer-novo .section-primary-mooc {
   background-color: #eeeeee !important;
   color: #8cc63f;
 }
 
-.footertitle{
+#footer-novo .footertitle{
   font-family: 'TIMSansWebBold', Fallback, times-new-roman;
   color: #89c3ff;
 }
 
-.footer-links {
+#footer-novo .footer-links {
   font-family:'TIMSansWeb', Fallback, times-new-roman;
   font-size: 12px;
   color: #ffffff;
@@ -198,33 +198,33 @@
   line-height: 35px;
   text-decoration: none;
 }
-.footer-links a:before{
+#footer-novo .footer-links a:before{
   display: none;
   color: #ffffff;
   line-height: 35px;
   text-decoration: none;  
 }
-.footer-links ul {
+#footer-novo .footer-links ul {
   list-style: none;
   color: #ffffff;
 }
-.footer-links li {
+#footer-novo .footer-links li {
   list-style: none;
   color: #ffffff;
   padding-top: 5px;
   line-height: 30px;
 }
 
-.footer-links a:hover {
+#footer-novo .footer-links a:hover {
   color: none;
 }
-.footer-links a{
+#footer-novo .footer-links a{
   color:#ffffff;
   padding-top: 5px;
   line-height: 35px;
   text-decoration: none;
 }
-.footer_mooc a{
+#footer-novo .footer_mooc a{
   color: #8cc63f;
 }
 .footertitle_mooc{
@@ -239,11 +239,11 @@
 .footertitle_mooc a:hover{
   color: #5da203;
 }
-.section-footer {
+#footer-novo .section-footer {
     position: relative;
     padding: 35px 0;
 }
-.col-md-3.footerborder-left {
+#footer-novo .col-md-3.footerborder-left {
     height: 150px;
     border-width: 3px 0 3px 3px;
     border-style: solid;
@@ -254,7 +254,7 @@
     border-image:  linear-gradient(to right, rgba(24,86,154,1), rgba(1,60,125,1)) 1 100%;
 }
 
-.col-md-4.footerborder-left {
+#footer-novo .col-md-4.footerborder-left {
     height: 150px;
     border-width: 3px 0 3px 3px;
     border-style: solid;

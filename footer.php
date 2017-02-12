@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/institutotim.css">
 
+<div id="footer-novo">
     <footer class="section section-primary">
       <div class="section section-footer">
         <div class="container">
@@ -108,6 +109,6 @@
       </div>
 
     </footer>
-
+</div>
 </body>
 </html>
