@@ -32,10 +32,10 @@
 		<!-- favicon -->
 		<link rel="shortcut icon" href="<?php echo $t->options->get("favicon") ?>" />
 
-		<!--<?php $t->font->load(); ?>-->
+		<?php $t->font->load(); ?>
 
 		<!-- wp_head() -->
-		<!--<?php $t->header->wp_head(); ?>-->
+		<?php $t->header->wp_head(); ?>
 
 
 
@@ -53,7 +53,7 @@
 </script>
 
 	</head>
-
+	<body <?php $t->content->body_class(); ?>>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -106,10 +106,10 @@
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right social">
-                      <!--<a href="#"><i class="fa fa-at fa-fw fa-lg text-inverse"></i></a>
+                      <a href="#"><i class="fa fa-at fa-fw fa-lg text-inverse"></i></a>
                       <a href="#"><i class="fa fa-facebook fa-fw fa-lg text-inverse"></i></a>
                       <a href="#"><i class="fa fa-fw fa-lg fa-youtube-play text-inverse"></i></a>
-                      <a href="#"><i class="fa fa-flickr fa-fw fa-lg hub text-inverse"></i></a>-->
+                      <a href="#"><i class="fa fa-flickr fa-fw fa-lg hub text-inverse"></i></a>
                 </div>
               </div>
 
@@ -148,23 +148,6 @@
  </div>
     <!-- NAVBAR MENU END -->
 
-	<body <?php $t->content->body_class(); ?>>
-
-    <div class="container">
-        <div class="col-lg-offset-1 col-lg-10 col-md-12">
-            <nav id="main-nav" class="row hidden-xs hidden-sm">
-                <div class="col-lg-12 col-md-12">
-                  <!-- OLD MENU -- >
-                   <!-- <?php wp_nav_menu( array( 'theme_location' => 'header', 'items_wrap' => '<ul class="clearfix textcenter">%3$s</ul>', 'container' => '', 'fallback_cb' => '', 'depth' => 2 ) ); ?>-->
-                </div>
-            </nav>
-
-            <section id="main-section">
-
-            <div class="main-navbar visible-xs visible-sm">
-            <!--  <?php wp_nav_menu( array( 'theme_location' => 'header', 'items_wrap' => '<ul class="clearfix">%3$s</ul>', 'container' => '', 'fallback_cb' => '', 'depth' => 2 ) ); ?>-->
-            </div>
-            
 
             
 		<?php get_template_part("menu"); ?>

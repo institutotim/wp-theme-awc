@@ -3,13 +3,13 @@
 
     <!-- FOOTER START -->
 
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/institutotim.css">
-    
+
     <footer class="section section-primary">
       <div class="section section-footer">
         <div class="container">
@@ -86,7 +86,7 @@
                       <div class="row">
                         <br>
                         <br>
-                        <a href="https://institutotim.org.br" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_header_institutotim.png"></a>
+                        <a href="https://institutotim.org.br" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_header_institutotim.png"></a>
                         <h5 class="footertitle">Instituto TIM nas Redes</h5>
                         <a href="mailto:contato@timfazciencia.com.br"><i class="fa fa-fw fa-lg text-inverse fa-at"></i></a>
                         <a href="https://www.facebook.com/timfazciencia"><i class="fa fa-facebook fa-fw fa-lg text-inverse"></i></a>
@@ -111,10 +111,6 @@
       </div>
 
     </footer>
-
-<!--<?php wp_footer(); ?>-->
-							
-<?php $t->footer->wp_footer(); ?>
 
 </body>
 </html>
