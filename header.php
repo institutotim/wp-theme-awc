@@ -125,7 +125,7 @@
                   </button> 
 
            <div id="navbar" class="navbar-collapse collapse #navbar" aria-expanded="false">
-<!--          <?php
+          <?php
                   wp_nav_menu( array(
                           'menu'              => 'header',
                           'depth'             => 2,
@@ -137,7 +137,7 @@
                           'walker'            => new wp_bootstrap_navwalker())
                         );
                   ?>
--->
+
                               </div>
           </nav>
       </div>
