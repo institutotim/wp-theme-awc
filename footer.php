@@ -15,31 +15,31 @@
                   <div class="row">
                     <div class="col-md-8 col-md-8 col-sm-12 col-xs-12">
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle"><a href="#o-que-e-awc">O que é?</a></p>
+                        <p class="footer-links"><a href="#o-que-e-awc">O que é?</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle"><a href="#recursos">Como Fazemos?</a></p>
+                        <p class="footer-links"><a href="#recursos">Como Fazemos?</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle"><a href="#agenda">Agenda</a></p>
+                        <p class="footer-links"><a href="#agenda">Agenda</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle"><a href="/inscreva-se">Inscreva-se</a></p>
+                        <p class="footer-links"><a href="/inscreva-se">Inscreva-se</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle"><a href="category/noticias/">Notícias</a></p>
+                        <p class="footer-links"><a href="category/noticias/">Notícias</a></p>
                       </div>
 
                       <div class="col-md-1 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                       	<p class="footertitle"><a href="faq/">FAQ</a></p>
+                       	<p class="footer-links"><a href="faq/">FAQ</a></p>
                       </div>
 
                       <div class="col-md-1 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle"><a href="#equipe">Equipe</a></p>
+                        <p class="footer-links"><a href="#equipe">Equipe</a></p>
                       </div>
 
                     </div>

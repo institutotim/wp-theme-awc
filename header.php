@@ -129,10 +129,10 @@
                       <span class="icon-bar"></span>
                   </button> 
 
-           <div id="navbar header-novo" class="navbar-collapse collapse #navbar" aria-expanded="false">
+           <div id="header-novo" class="navbar-collapse collapse #navbar" aria-expanded="false">
 
 
-		<ul class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right">
                           <li>
                             <a href="/#o-que-e-awc">O que é?</a>
                           </li>
@@ -153,19 +153,15 @@
                           <li>
                             <a href="#equipe">EQUIPE</a>
                           </li>
-        </ul>
-                      </div
-                      <!-- /.navbar-collapse -->
+      					  </ul>
+           </div>
+           </nav>   <!-- /.navbar-collapse -->
                     </div>
-                    <!-- /.container-fluid -->
-                  </nav>
-      </div>
-
+                    <!-- /.container-fluid -->       
+     		 </div>
           </div>	<!-- /.navbar-collapse -->
-        
         </div><!-- /.container-fluid -->
     <!-- NAVBAR MENU END -->
-
 </div>            
 <body <?php $t->content->body_class(); ?>>
 		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>

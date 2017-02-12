@@ -251,7 +251,7 @@
 .col-md-3.footerborder-left {
     height: 150px;
     border-width: 3px 0 3px 3px;
-    border-style: solid;
+    border-style: none;
     -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(rgba(24,86,154,1)), to(rgba(1,60,125,1))) 1 100%;
     -webkit-border-image: -webkit-linear-gradient(right, rgba(24,86,154,1), rgba(1,60,125,1)) 1 100%;
     -moz-border-image: -moz-linear-gradient(right, rgba(24,86,154,1), rgba(1,60,125,1)) 1 100%;
