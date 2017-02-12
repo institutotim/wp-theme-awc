@@ -14,7 +14,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-8 col-md-8 col-sm-12 col-xs-12">
-                      <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left">
+                      <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
                         <p class="footertitle">O que é?</p>
                       </div>
 
@@ -22,7 +22,7 @@
                         <p class="footertitle">Como Fazemos?</p>
                       </div>
 
-                      <div class="col-md-2-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
+                      <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
                         <p class="footertitle">Agenda</p>
                       </div>
 
