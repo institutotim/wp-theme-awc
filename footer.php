@@ -1,5 +1,5 @@
 <?php $t =& peTheme(); ?>
-<?php $layout =& $t->layout; ?>
+<!--<?php $layout =& $t->layout; ?>-->
 
     <!-- FOOTER START -->
 
