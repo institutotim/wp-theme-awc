@@ -60,7 +60,7 @@
     <link href="https://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/institutotim.css">
-
+<div class="header">
         <div class="section navbar-overtop-tim">
       <div class="container ">
         <div class="row">
@@ -148,7 +148,7 @@
  </div>
     <!-- NAVBAR MENU END -->
 
-
+</div> <!-- header-->
             
 		<?php get_template_part("menu"); ?>
 		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
