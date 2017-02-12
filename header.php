@@ -53,15 +53,17 @@
 </script>
 
 	</head>
+
 	<body <?php $t->content->body_class(); ?>>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<div id="header-novo">
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/institutotim.css">
 
-	<div id="header-novo">
+
         <div class="section navbar-overtop-tim">
       <div class="container ">
         <div class="row">
@@ -78,8 +80,10 @@
         </div>
       </div>
     </div>
+ 
     <!-- NAVBAR PORTAL TIM END -->
     <!-- NAVBAR MENU START -->
+
     <div class="section navbar-maintop-tim">
       <div class="container">
         <div class="row row-eq-height">
@@ -87,7 +91,8 @@
             <div class="col-md-6 menu-fixed-bottom-left menu-fixed-border-left">
               <a href="http://tim.com.br"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_header_institutotim.png" title="<?php bloginfo( 'name' ); ?>" class="img-responsive"></a>
             </div>
-            <div class="col-md-6 menu-fixed-bottom-right" >        
+
+            <div class="col-md-6 menu-fixed-bottom-right" >
               <a href="<?php bloginfo( 'url'); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo_awc.png" class="img-responsive"></a>
             </div>
@@ -113,7 +118,6 @@
                       <a href="#"><i class="fa fa-flickr fa-fw fa-lg hub text-inverse"></i></a>
                 </div>
               </div>
-
       <div class="row">
           <nav class="navbar navbar-default border-top">
             <div class="container-fluid">
@@ -139,16 +143,15 @@
                         );
                   ?>
 
-           </div>
+            </div>
           </nav>
       </div>
 
-          </div>  <!-- /.navbar-collapse -->
+          </div>	<!-- /.navbar-collapse -->
         
         </div><!-- /.container-fluid -->
- </div>
     <!-- NAVBAR MENU END -->
-            
+</div>            
 		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
 
 		<?php if ($template === "page_home.php"): ?>
