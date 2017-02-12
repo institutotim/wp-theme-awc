@@ -679,13 +679,13 @@ h2.news-post-title{
 .home .title.grid-full h2{
 	display: none;
 }
-
+/*
 .logo{
 	width: 25%;
 	margin-top: 13px;
 
 }
-
+*/
 .desktop.navigation{
 	width: 65%;
 }
