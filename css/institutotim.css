@@ -426,3 +426,6 @@
 #header-novo .container {
   max-width: 1170px !important; 
 }
+.search {
+    padding-top: inherit !important;
+}

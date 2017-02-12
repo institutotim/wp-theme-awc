@@ -54,7 +54,7 @@
 
 	</head>
 
-	<body <?php $t->content->body_class(); ?>>
+	
 <div id="header-novo">
   	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -151,7 +151,9 @@
         
         </div><!-- /.container-fluid -->
     <!-- NAVBAR MENU END -->
+
 </div>            
+<body <?php $t->content->body_class(); ?>>
 		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
 
 		<?php if ($template === "page_home.php"): ?>
