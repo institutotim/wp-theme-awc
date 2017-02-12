@@ -125,7 +125,7 @@
                       <span class="icon-bar"></span>
                   </button> 
 
-           <div id="navbar" class="navbar-collapse collapse #navbar" aria-expanded="false">
+           <div id="navbar header-novo" class="navbar-collapse collapse #navbar" aria-expanded="false">
           <?php
                   wp_nav_menu( array(
                           'menu'              => 'header',
@@ -139,7 +139,7 @@
                         );
                   ?>
 
-                              </div>
+           </div>
           </nav>
       </div>
 
