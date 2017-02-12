@@ -423,5 +423,8 @@
 /* Fix do tema principal */
 
 .home-first-section {
-    margin-top: -210px !important;
+    margin-top: -172px !important;
+}
+#header-novo .container {
+  max-width: 1170px !important; 
 }
