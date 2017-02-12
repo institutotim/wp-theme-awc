@@ -132,64 +132,28 @@
            <div id="navbar header-novo" class="navbar-collapse collapse #navbar" aria-expanded="false">
 
 
-<ul class="nav navbar-nav navbar-right">
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
-                            role="button" aria-haspopup="true" aria-expanded="false">
-                            Sobre
-                            <i class="fa fa-fw fa-lg -play text-primary fa-angle-down"></i>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a href="#">Missão e Princípios</a>
-                              </li>
-                              <li>
-                                <a href="#">Governança</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            INICIATIVAS
-                            <i class="fa fa-fw fa-lg -play text-primary fa-angle-down"></i>
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a href="#">Projetos</a>
-                              </li>
-                              <li>
-                                <a href="#">Soluções</a>
-                              </li>
-                              <li>
-                                <a href="#">Editais</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            COMUNICAÇÃO
-                            <i class="fa fa-fw fa-lg -play text-primary fa-angle-down"></i>
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a href="#">Imprensa</a>
-                              </li>
-                              <li>
-                                <a href="#">Clipping</a>
-                              </li>
-                              <li>
-                                <a href="#">Manual da marca</a>
-                              </li>
-                            </ul>
-                          </li>
-
+		<ul class="nav navbar-nav navbar-right">
                           <li>
-                            <a href="#">NOTÍCIAS</a>
+                            <a href="/#o-que-e-awc">O que é?</a>
                           </li>
                           <li>
-                            <a href="#">CONTATO</a>
+                            <a href="#recursos">COMO FAZEMOS?</a>
                           </li>
-                        </ul>
+                          <li>
+                            <a href="#agenda">AGENDA</a>
+                          <li>
+                            <a href="/inscreva-se/">INSCREVA-SE</a>
+                          </li>
+                          <li>
+                            <a href="/category/noticias/">NOTÍCIAS</a>
+                          </li>
+                          <li>
+                            <a href="/faq/">FAQ</a>
+                          </li>
+                          <li>
+                            <a href="#equipe">EQUIPE</a>
+                          </li>
+        </ul>
                       </div
                       <!-- /.navbar-collapse -->
                     </div>
