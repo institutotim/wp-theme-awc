@@ -15,31 +15,31 @@
                   <div class="row">
                     <div class="col-md-8 col-md-8 col-sm-12 col-xs-12">
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">O que é?</p>
+                        <p class="footertitle"><a href="#o-que-e-awc">O que é?</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">Como Fazemos?</p>
+                        <p class="footertitle"><a href="#recursos">Como Fazemos?</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">Agenda</p>
+                        <p class="footertitle"><a href="#agenda">Agenda</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">Inscreva-se</p>
+                        <p class="footertitle"><a href="/inscreva-se">Inscreva-se</a></p>
                       </div>
 
                       <div class="col-md-2 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">Notícias</p>
+                        <p class="footertitle"><a href="category/noticias/">Notícias</a></p>
                       </div>
 
                       <div class="col-md-1 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                       	<p class="footertitle">FAQ</p>
+                       	<p class="footertitle"><a href="faq/">FAQ</a></p>
                       </div>
 
                       <div class="col-md-1 col-md-3 col-sm-6 col-xs-12 text-left footerborder-left">
-                        <p class="footertitle">Equipe</p>
+                        <p class="footertitle"><a href="#equipe">Equipe</a></p>
                       </div>
 
                     </div>
