@@ -172,17 +172,15 @@
 }
 
 /* Footer */
-
+#footer-novo .footer {
+  height: 100% !important;
+  background-color: #004691 !important;
+  color: #ffffff !important;
+}
 #footer-novo .section-primary {
   background-color: #004691 !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
-
-#footer-novo .section-primary-mooc {
-  background-color: #eeeeee !important;
-  color: #8cc63f;
-}
-
 #footer-novo .footertitle{
   font-family: 'TIMSansWebBold', Fallback, times-new-roman;
   color: #89c3ff;
@@ -240,7 +238,7 @@
 .footertitle_mooc a:hover{
   color: #5da203;
 }
-.section-footer {
+#footer-novo .section-footer {
     position: relative;
     padding: 35px 0;
 }
