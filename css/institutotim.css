@@ -420,3 +420,9 @@
 
   }
 
+/* Fix do tema principal */
+
+.home-first-section {
+    height: 1000px;
+    margin-top: -250px !important;
+}
