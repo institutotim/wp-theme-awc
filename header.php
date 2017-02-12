@@ -60,7 +60,7 @@
     <link href="https://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/institutotim.css">
-<div class="header">
+<div class="header-novo">
         <div class="section navbar-overtop-tim">
       <div class="container ">
         <div class="row">
