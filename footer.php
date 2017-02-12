@@ -1,6 +1,3 @@
-<?php $t =& peTheme(); ?>
-<!--<?php $layout =& $t->layout; ?>-->
-
     <!-- FOOTER START -->
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
