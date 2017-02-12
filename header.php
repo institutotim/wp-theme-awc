@@ -147,10 +147,7 @@
         </div><!-- /.container-fluid -->
  </div>
     <!-- NAVBAR MENU END -->
-
-</div> <!-- header-->
             
-		<!--<?php get_template_part("menu"); ?>-->
 		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
 
 		<?php if ($template === "page_home.php"): ?>
