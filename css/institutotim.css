@@ -26,6 +26,8 @@
   min-height: 0px;
   text-transform: uppercase;
   position: absolute;
+  margin-top: -90px;
+  margin-left: 120px;
 }
 
 
@@ -478,6 +480,7 @@
 
 #header-novo .navbar-right {
     background-color: #004691 !important;
+/*    margin-top: -90px !important;*/
 }
 #header-novo nav {
     background-color: #004691 !important;
