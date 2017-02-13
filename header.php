@@ -111,10 +111,10 @@
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right social">
-                      <a href="#"><i class="fa fa-at fa-fw fa-lg text-inverse"></i></a>
-                      <a href="#"><i class="fa fa-facebook fa-fw fa-lg text-inverse"></i></a>
-                      <a href="#"><i class="fa fa-fw fa-lg fa-youtube-play text-inverse"></i></a>
-                      <a href="#"><i class="fa fa-flickr fa-fw fa-lg hub text-inverse"></i></a>
+                      <!--<a href="#"><i class="fa fa-at fa-fw fa-lg text-inverse"></i></a>-->
+                      <a href="https://twitter.com/programaawc"><i class="fa fa-twitter fa-fw fa-lg text-inverse"></i></a>
+                      <!--<a href="#"><i class="fa fa-fw fa-lg fa-youtube-play text-inverse"></i></a>
+                      <a href="#"><i class="fa fa-flickr fa-fw fa-lg hub text-inverse"></i></a>-->
                 </div>
               </div>
       <div class="row">
