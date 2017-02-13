@@ -45,20 +45,20 @@
     background-color: #004691 !important;
 }
 #header-novo .navbar-nav > li > a {
-  padding: 10px 0px 5px 20px;
+  padding: 10px 0px 5px 20px !important;
   color: #ffffff !important;
 }
 
 #header-novo .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 #header-novo .navbar-default .navbar-nav > li > a:hover {
-  color: #82b9e6;
+  color: #82b9e6 !important;
 }
 
 #header-novo .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border: 0px;
+  border: 0px !important;
   background-color: #004691 !important;
 }
 
@@ -69,7 +69,7 @@
 #header-novo .navbar-overtop-tim {
   background-color: #003264;
   border-bottom: 2px solid #82b9e6;
-  height: 32px;
+  height: 32px !important;
   padding: 10px;
 }
 #header-novo .navbar-overtop-tim-en-pt{
@@ -77,7 +77,7 @@
 }
 
 #header-novo .navbar-overtop-tim-en-pt a{
-  color: #82b9e6;
+  color: #82b9e6 !important;
 }
 #header-novo .navbar-maintop-tim {
   background-color: #004691 !important;
@@ -97,7 +97,7 @@
 #header-novo .navbar-default .navbar-nav > .open > a, .navbar-default
 .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   background-color: #004691 !important;
-  color: #82b9e6;
+  color: #82b9e6 !important;
 }
 
 #header-novo .social{
