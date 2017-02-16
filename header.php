@@ -73,7 +73,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo_header_portal_tim.png" title="<?php bloginfo( 'name' ); ?>" class="img-responsive"></a>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 hidden-lg visible-md" >
-              <a href="http://tim.com.br">
+              <a href="https://institutotim.org.br" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo_top_header_institutotim.png" title="<?php bloginfo( 'name' ); ?>" class="img-responsive"></a>
            </div>
           </div>
@@ -89,7 +89,7 @@
         <div class="row row-eq-height">
          <div class="col-lg-5 ">
             <div class="col-md-6 menu-fixed-bottom-left menu-fixed-border-left">
-              <a href="http://tim.com.br"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_header_institutotim.png" title="<?php bloginfo( 'name' ); ?>" class="img-responsive"></a>
+              <a href="https://institutotim.org.br" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_header_institutotim.png" title="<?php bloginfo( 'name' ); ?>" class="img-responsive"></a>
             </div>
 
             <div class="col-md-6 menu-fixed-bottom-right" >
