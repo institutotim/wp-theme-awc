@@ -134,24 +134,24 @@
 
 						<ul class="nav navbar-nav navbar-right">
                           <li>
-                            <a href="/#o-que-e-awc">O que é?</a>
+                            <a href="http://awc.gus.computer/#o-que-e-awc">O que é?</a>
                           </li>
                           <li>
-                            <a href="#recursos">COMO FAZEMOS?</a>
+                            <a href="http://awc.gus.computer/#recursos">COMO FAZEMOS?</a>
                           </li>
                           <li>
-                            <a href="#agenda">AGENDA</a>
+                            <a href="http://awc.gus.computer/#agenda">AGENDA</a>
                           <li>
-                            <a href="/inscreva-se/">INSCREVA-SE</a>
+                            <a href="http://awc.gus.computer/inscreva-se/">INSCREVA-SE</a>
                           </li>
                           <li>
-                            <a href="/category/noticias/">NOTÍCIAS</a>
+                            <a href="http://awc.gus.computer/category/noticias/">NOTÍCIAS</a>
                           </li>
                           <li>
-                            <a href="/faq/">FAQ</a>
+                            <a href="http://awc.gus.computer/faq/">FAQ</a>
                           </li>
                           <li>
-                            <a href="#equipe">EQUIPE</a>
+                            <a href="http://awc.gus.computer/#equipe">EQUIPE</a>
                           </li>
       					  </ul>
            </div>
