@@ -48,7 +48,7 @@
                         <br>
                         <br>
                         <a href="https://institutotim.org.br" targe="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_header_institutotim.png"></a>
-                        <h5 class="footertitle">Instituto TIM nas Redes</h5>
+                        <p><h5 class="footertitle">Instituto TIM nas Redes</h5></p>
                         <!--<a href="mailto:contato@institutotim.com.br"><i class="fa fa-fw fa-lg text-inverse fa-at"></i></a>-->
                         <!--<a href="https://facebook.com/"><i class="fa fa-facebook fa-fw fa-lg text-inverse"></i></a>-->
                         <a href="https://twitter.com/programaawc"><i class="fa fa-twitter fa-fw fa-lg text-inverse"></i></a>
