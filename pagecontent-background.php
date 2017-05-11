@@ -7,7 +7,16 @@
 	<div class="content dark padded background-page container">
 
 		<div class="title grid-full">
-			<h2><?php $content->title(); ?></h2>
+
+
+
+<?php if (is_page('43')) { ?>
+<?php }else { ?>
+<h2><?php $content->title(); ?></h2>
+<?php } ?>
+
+
+<!--			<h2><?php $content->title(); ?></h2> -->
 			<span class="border"></span>
 
 			<div class="sub-heading">			
