@@ -30,7 +30,8 @@
 			(document.documentElement)
 		</script>
 
-		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/main.css">
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 		<!-- favicon -->
 		<link rel="shortcut icon" href="<?php echo $t->options->get("favicon") ?>" />
@@ -40,7 +41,6 @@
 		<!-- wp_head() -->
 		<?php $t->header->wp_head(); ?>
 <style>
-@import "css/fonttim.css";
 #tim-container {
     width: 100%;
     margin: 0;
@@ -123,11 +123,14 @@
     background: #428bca none repeat scroll 0 0;
     color: #fff
 }
+#mega-menu-wrap-header-1,
 .box-it li,
 .box-it,
 .creditos,
 .box-sz1 h2,
-.box-sz2 h2 {
+.box-sz2 h2,
+.search2 input
+ {
     font-family: 'TIMSansWeb', Fallback, times-new-roman
 }
 .box-it li {
@@ -431,25 +434,20 @@
 			<div class="logo2 menu-fixed-bottom-left menu-fixed-border-left">
 				<a href="https://institutotim.org.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_institutotim.png" alt="" title="" /></a>
 			</div>
-
 			<div class="tfc cor" style="height:35px">
 				<a href="<?php echo get_option('home'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_awc.png" alt="" title="" /></a>
 			</div>
 
 			<div class="nav-f">
-                                <div class="nav-i">
-                                        <div class="nav-e">
-                                                    <div class="search2">
-                                                            <form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
-                                                                    <input type="search" class="search2" placeholder="O que você procura?" value="" name="s" title="O que você procura?" />
-                                                                    <span class="icon"><i class="fa fa-search"></i></span>
-                                                            </form>
-                                                    </div>
-                                        </div>
-                                        <div class="rede-social">
-
-                                          </div>
-                                </div>
+                <div class="nav-i">
+                    <div class="nav-e">
+                        <form id="searchbox" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+                            <input type="search" class="search2" placeholder="O que você procura?" value="" name="s" title="O que você procura?" />
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                        </form>
+                    </div>
+                    <div class="rede-social"></div>
+                </div>
 				<div class="nav-it">
 					<?php wp_nav_menu( array( 'theme_location' => 'header-1' ) ); ?>
 				</div>
@@ -458,9 +456,8 @@
 	</div>
 </div>
 
+<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
 
-		<?php $template = is_page() ? $t->content->pageTemplate() : false; ?>
-
-		<?php if ($template === "page_home.php"): ?>
-			<?php get_template_part("headlines"); ?>
-		<?php endif; ?>
+<?php if ($template === "page_home.php"): ?>
+	<?php get_template_part("headlines"); ?>
+<?php endif; ?>
