@@ -10,15 +10,15 @@
 			<h2><?php $content->title(); ?></h2>
 			<span class="border"></span>
 
-			<div class="sub-heading">			
+			<div class="sub-heading">
 				<?php $content->content(); ?>
 			</div>
 		</div>
 		<div class="clearfix"></div>
 
-		<?php 
+		<?php
 
-		if (empty($meta->services->services)) { 
+		if (empty($meta->services->services)) {
 
 			$services = get_posts( array( 'post_type' => 'service', 'posts_per_page' => -1 ) );
 
@@ -39,7 +39,7 @@
 		?>
 
 		<?php if (!empty($meta->services->services)) { ?>
-		
+
 
 		<?php
 			if ($loop = $t->data->customLoop((object) array("post_type"=>"service","id" => $meta->services->services,"orderby" => "post__in",))) {
@@ -92,7 +92,7 @@
 		?>
 
 		<?php } ?>
-		
-	</div>	
+
+	</div>
 </section>
 <?php if ( defined( 'HOME_SLIDER') ) echo '</div>'; ?>

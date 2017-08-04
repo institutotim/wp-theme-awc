@@ -229,11 +229,11 @@ nav.navbar {
     margin: 14px 0 0 12px;
 }
 
-.menu-fixed-border-left {
+/*.menu-fixed-border-left {
     border-color: #155ea3;
     border-style: solid;
     border-width: 0 2px 0 0;
-}
+}*/
 
 @media only screen and (max-width: 799px){
     .home-first-section{
@@ -327,7 +327,6 @@ nav.navbar {
     .logo2 {
         width: 188px;
         float: left;
-        padding-right: 15px;
         z-index: 99999;
         height: 21px
     }
