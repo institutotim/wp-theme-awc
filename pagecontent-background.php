@@ -8,18 +8,9 @@
 
 		<div class="title grid-full">
 
-
-
-<?php if (is_page('43')) { ?>
-<?php }else { ?>
-<h2><?php $content->title(); ?></h2>
-<?php } ?>
-
-
-<!--			<h2><?php $content->title(); ?></h2> -->
 			<span class="border"></span>
 
-			<div class="sub-heading">			
+			<div class="sub-heading">
 				<?php $content->content(); ?>
 			</div>
 		</div>
@@ -27,7 +18,7 @@
 		<?php if ($content->hasFeatImage()): ?>
 		<div class="animated slide" data-appear-bottom-offset="100">
 			<?php $content->img(960,330); ?>
-		</div>	
+		</div>
 		<?php endif; ?>
 	</div>
 </section>
