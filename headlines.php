@@ -124,7 +124,7 @@
 <?php else: ?>
 
 <!-- Begin Hero -->
-<section id="<?php $content->slug(); ?>" class="home-first-section hero parallax clearfix" style="background-image: url('<?php echo $bg; ?>');">
+<section id="<?php $content->slug(); ?>" class="home-first-section hero clearfix" style="background-image: url('<?php echo $bg; ?>');">
 
 	<!-- Content -->
 	<div class="dark content container">

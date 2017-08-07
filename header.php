@@ -669,7 +669,7 @@ div.divider{
 <div id="tim-container">
 
 	<div class="logo-it">
-		<div class="container-2 bar-primary">
+		<div class="container container-2 bar-primary">
 			<a href="http://tim.com.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_portal_tim.png" title="Instituto TIM" alt="Instituto TIM" /></a>
 		</div>
 	</div>
