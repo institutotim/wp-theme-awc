@@ -225,15 +225,17 @@ nav.navbar {
 }
 
 .logo2.logo-project{
-    width: 64px;
-    margin: 14px 0 0 12px;
+    width: 65px;
+    margin: 14px 0 0 20px;
 }
 
-/*.menu-fixed-border-left {
-    border-color: #155ea3;
-    border-style: solid;
-    border-width: 0 2px 0 0;
-}*/
+div.divider{
+    border-left: 2px solid #155ea3;
+    height: 22px;
+    position: absolute;
+    left: 209px;
+    top: 16px;
+}
 
 @media only screen and (max-width: 799px){
     .home-first-section{
@@ -309,9 +311,12 @@ nav.navbar {
 }
 
 @media only screen and (min-width: 800px) {
+    div.divider{
+        left: 218px;
+        top: 33px;
+    }
     .logo2.logo-project {
-        width: 80px;
-        margin-top: 28px;
+        margin-top: 30px;
     }
     #search-row-mobile{
         display: none;
@@ -674,6 +679,7 @@ nav.navbar {
             <div class="logo2 menu-fixed-bottom-left menu-fixed-border-left">
 				<a href="https://institutotim.org.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_institutotim.png" alt="" title="" /></a>
 			</div>
+            <div class="divider"></div>
 			<div class="logo2 logo-project">
 				<a href="<?php echo get_option('home'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_awc.png" alt="" title="" /></a>
 			</div>
