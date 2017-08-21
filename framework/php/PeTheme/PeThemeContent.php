@@ -10,9 +10,8 @@ class PeThemeContent {
 
 	public function __construct(&$master) {
 		$this->master = &$master;
-		add_filter("pe_post_thumbnail",array(&$this,"post_thumbnail_filter"));	
+		add_filter("pe_post_thumbnail",array(&$this,"post_thumbnail_filter"));
 		add_filter("wp_tag_cloud",array(&$this,"wp_tag_cloud_filter"));
-		add_filter("widget_tag_cloud_args",array(&$this,"widget_tag_cloud_args_filter"));
 		add_filter("previous_post_link",array(&$this,"strip_rel_filter"));
 		add_filter("next_post_link",array(&$this,"strip_rel_filter"));
 		add_filter("the_category",array(&$this,"strip_rel_filter"));
@@ -230,7 +229,7 @@ class PeThemeContent {
 
 	public function hasFeatImage() {
 		global $post;
-		return @has_post_thumbnail($post->ID);		
+		return @has_post_thumbnail($post->ID);
 	}
 
 	public function get_origImage($id = null) {
@@ -279,10 +278,10 @@ class PeThemeContent {
 		} else {
 			$meta =& $this->meta();
 			if (empty($meta->builder)) return;
-		
+
 			global $post;
 			$view = new PeThemeViewLayout();
-			$conf = (object) 
+			$conf = (object)
 				array(
 					  "id" => $post->ID,
 					  "settings" => $meta->builder
@@ -324,7 +323,7 @@ class PeThemeContent {
 		case "gallery":
 			$gallery = empty($meta->gallery) ? false : $meta->gallery;
 			if (!empty($gallery->id)) {
-				$conf = 
+				$conf =
 					$this->master->view->create(
 												$gallery->type,
 												"gallery",
@@ -444,7 +443,7 @@ class PeThemeContent {
 
 	public function blog($settings,$showpager = true) {
 		global $post;
-		
+
 		$exclude = false;
 
 		// prevents nested blogs
@@ -493,7 +492,7 @@ class PeThemeContent {
 		if ($settings->tag) {
 			$custom["tag"] = $settings->tag;
 		}
-		
+
 		if ($settings->format) {
 			$tax_query = array(
 							   array(
@@ -510,7 +509,7 @@ class PeThemeContent {
 		$this->customLoop("post",$settings->count,null,$custom,$settings->pager === "yes");
 
 		$compact = compact("media");
-		
+
 		$this->master->template->get_part($compact,"loop",$this->have_posts() ? $settings->layout : "empty");
 
 		if ($showpager && $settings->pager === "yes") {
@@ -519,7 +518,7 @@ class PeThemeContent {
 
 		$this->resetLoop();
 		$this->blogLoop = false;
-		
+
 	}
 
 	public function getPagerLoop($max = 5,$pages = false) {
@@ -563,7 +562,7 @@ class PeThemeContent {
 
 
 	public function tagCloud($number,$orderby="name") {
-		wp_tag_cloud(array("number"=>$number,"orderby"=>$orderby,"order"=>$orderby == "count" ? "DESC" : "ASC")); 
+		wp_tag_cloud(array("number"=>$number,"orderby"=>$orderby,"order"=>$orderby == "count" ? "DESC" : "ASC"));
 	}
 
 	public function tags($sep = ", ",$tax = false) {
@@ -603,16 +602,16 @@ class PeThemeContent {
 
 	public function pageTemplate($post_id = null) {
 		if (function_exists("get_page_template_slug")) return get_page_template_slug($post_id);
-		$post = get_post( $post_id ); 
-		if ( 'page' != $post->post_type ) 
-			return false; 
-		$template = get_post_meta( $post->ID, '_wp_page_template', true ); 
-		if ( ! $template || 'default' == $template ) 
-			return ''; 
+		$post = get_post( $post_id );
+		if ( 'page' != $post->post_type )
+			return false;
+		$template = get_post_meta( $post->ID, '_wp_page_template', true );
+		if ( ! $template || 'default' == $template )
+			return '';
 	}
 
 	public function slug() {
-		global $post; 
+		global $post;
 		echo $post->post_name;
 	}
 
@@ -640,7 +639,7 @@ class PeThemeContent {
 	}
 
 	public function getBlogLink() {
-		$pfp = get_option("page_for_posts"); 
+		$pfp = get_option("page_for_posts");
 		$pfp  = $pfp ? get_page_link($pfp) : "";
 
 		return get_option('show_on_front') == 'page' ? $pfp : home_url();
@@ -685,7 +684,7 @@ class PeThemeContent {
 		return str_replace("post-edit-link","label",$link);
 	}
 
-	
+
 	public function getSocialLinks($links,$position = "top") {
 		$html = "";
 		if (is_array($links)) {
@@ -708,12 +707,12 @@ class PeThemeContent {
 		$args = array();
 
 		if ($template) {
-			$args = 
+			$args =
 				array(
 					  'meta_key' => '_wp_page_template',
 					  'meta_value' => "page-$template.php"
-					  );				
-		} 
+					  );
+		}
 
 		$pages = get_pages($args);
 		return $pages;
@@ -754,13 +753,13 @@ class PeThemeContent {
 			$ret->link = get_permalink($post);
 			$ret->date = get_the_time(get_option('date_format'), $post);
 		}
-		return $ret; 
+		return $ret;
 	}
 
 
 	public function adjPostLink($previous = false) {
 		$post = get_adjacent_post(false,"", $previous);
-		return $post ? get_permalink($post) : "";	
+		return $post ? get_permalink($post) : "";
 	}
 
 	public function prevPostLink() {

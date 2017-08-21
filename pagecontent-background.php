@@ -2,8 +2,10 @@
 <?php $content =& $t->content; ?>
 <?php $meta =& $content->meta(); ?>
 <?php if ( defined( 'HOME_SLIDER') ) echo '<div class="slider-cover">'; ?>
-<?php $parallax = empty($meta->background->parallax) ? "parallax-disabled" : ""; ?>
-<section class="parallax colored <?php echo $parallax; ?> clearfix" id="<?php $content->slug(); ?>" style="background-image: url(' <?php echo $meta->background->background; ?>');">
+<?php
+	$parallax = empty($meta->background->parallax) ? "parallax-disabled" : "";
+?>
+<section class="parallax colored clearfix" id="<?php $content->slug(); ?>" style="background-image: url(' <?php echo $meta->background->background; ?>');">
 	<div class="content dark padded background-page container">
 
 		<div class="title grid-full">
@@ -23,3 +25,4 @@
 	</div>
 </section>
 <?php if ( defined( 'HOME_SLIDER') ) echo '</div>'; ?>
+
