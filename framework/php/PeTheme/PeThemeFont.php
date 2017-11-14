@@ -76,7 +76,7 @@ class PeThemeFont {
 
 		if (count($install) > 0) {
 			printf(
-				   '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=%s&amp;subset=%s">',
+				   '<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=%s&amp;subset=%s">',
 				   strtr(join("|",array_keys($install))," ","+"),
 				   apply_filters("pe_theme_font_charset","latin,latin-ext")
 				   );

@@ -36,7 +36,7 @@
 				loader = $('<link rel="stylesheet" type="text/css" />');
 				$("head").append(loader);
 			}
-			loader.attr("href",'http://fonts.googleapis.com/css?family=%0'.format(fonts.join("|").replace(/ /,"+")));
+			loader.attr("href",'https://fonts.googleapis.com/css?family=%0'.format(fonts.join("|").replace(/ /,"+")));
 			loading = 0;
 		}
 

@@ -335,7 +335,7 @@ div.divider{
     .logo2 {
         width: 188px;
         float: left;
-        z-index: 99999;
+        z-index: 10;
         height: 21px
     }
     .logo2 img {
